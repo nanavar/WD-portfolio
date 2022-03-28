@@ -1,0 +1,190 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f7f5f2;
+  margin: 0;
+  font-family: "Merriweather", serif;
+  color: rgb(70, 70, 70);
+  text-align: center;
+}
+
+h1 {
+  color: #f56d91;
+  margin-bottom: 0;
+  font-size: 6rem;
+  font-weight: 500;
+  font-family: "Sacramento", cursive;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #f56d91;
+  font-size: 3.5rem;
+  font-weight: 500;
+}
+
+h3 {
+  color: #8d8daa;
+  font-size: 1.7rem;
+  font-weight: normal;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #dddddd;
+  border-width: 6px;
+  width: 5%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+span {
+  color: #f56d91;
+}
+
+.top-container {
+  background-color: #d8e7e7;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  display: block;
+  width: 20%;
+  left: 70%;
+  top: 10px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  display: block;
+  width: 15%;
+  left: 10%;
+  bottom: 300px;
+}
+
+.hill {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.middle-container {
+  padding-top: 30px;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+  margin: 100px auto 0 auto;
+}
+
+.profile p {
+  width: 30%;
+  margin: auto;
+  line-height: 2;
+}
+
+.skill {
+  position: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.skill-row {
+  width: 40%;
+  margin: auto;
+  height: auto;
+  margin-bottom: 100px;
+  text-align: left;
+}
+
+.skill-row h3 {
+  color: #66bfbf;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 2px;
+}
+
+.skill-row p {
+  line-height: 2;
+}
+
+.coding {
+  float: left;
+  padding-right: 50px;
+  width: 150px;
+}
+
+.design {
+  float: right;
+  padding-left: 50px;
+  width: 150px;
+}
+
+.contact-me h3 {
+  color: #66bfbf;
+}
+
+.contact-me p {
+  width: 30%;
+  display: block;
+  margin: auto;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 30px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #8d8daa;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn:hover {
+  background: #f56d91;
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #92bbbb;
+  padding: 50px 0 20px;
+  margin-top: 80px;
+}
+
+.bottom-container a {
+  font-weight: 600;
+  cursor: pointer;
+  margin: 20px 20px;
+}
+
+.bottom-container a:hover {
+  color: #d8e7e7;
+  transition: 0.3s ease-in-out;
+}
+
+.bottom-container p {
+  color: #f7f5f2;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
